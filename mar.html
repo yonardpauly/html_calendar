@@ -7,36 +7,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>March</title>
     <style>
+        /* means all html elements e tinatarget nya */
+        /* nasa loob ng { ... } ung mga style rules na iaapply sa sinelect mong html element */
         * {
             box-sizing: border-box;
-            border: 0.5px solid #333
+            /* border: 0.5px solid #333 */
         }
-
+        a {
+            text-decoration: none
+        }
+        /* div means just a normal division element for scoping */
         div {
-            width: 50%;
-            margin: 0 auto
+            width: 40%;
+            margin: 0 auto /* 0 top and bottom tapos auto left and right */
         }
-
+        /* table html element */
         table {
             border: 1px solid #333;
             text-align: center;
             width: 100%
         }
-
+        /* table heading */
         thead {
             background: #333;
             color: #fff
         }
-        
+        /* table head at table data */
         th, td {
-            width: 14.25%
+            border: 1px solid #333;
+            width: 14.25% /* 100%(screen width) / 7 column(mon - sun) = 14.25% */
         }
     </style>
 </head>
 
 <body>
     <div>
-        <h1>March</h1>
+        <h1 align="center">
+            <a href="feb.html"><</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            March
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="apr.html">></a>
+        </h1>
         <table>
             <thead>
                 <tr>
